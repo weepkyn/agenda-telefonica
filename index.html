@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navegacao">
+        <ul>
+            <li> <a href="#contatos">Contatos salvos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <form id="formulario">
+                <div class="container-titulo"> 
+                    <img src="./images/caderno.png">
+                    <h1 id="titulo">Agenda de Contatos</h1>
+                </div>
+                <h2>Adicione números à sua agenda</h2>
+
+                    <input id="nome" type="text" placeholder="Nome" required>
+                    <input id="telefone" type="tel" placeholder="Telefone" min="000000000000000" max="999999999999999" required>
+                    <button type="submit"> Cadastrar</button>
+            </form>
+        </div>
+        <section class="container2">
+            <div class="container-titulo">
+                <img src="./images/livro.png">
+            <h1 id="contatos">Contatos na Agenda</h1>
+            </div>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Telefone</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
