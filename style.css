@@ -123,8 +123,78 @@ input{
     padding:15px;
 }
 
+@media (max-width: 768px) {
+    #navegacao {
+        padding: 20px;
+        justify-content: end;
+    }
 
+    li a {
+        font-size: 10px;
+    }
 
+    h1 {
+        font-size: 36px;
+        margin-left: 0;
+    }
+
+    img{
+        height: 25px;
+        margin-right: 5px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    input {
+        width: 90%;
+        max-width: 100%;
+    }
+
+    button {
+        width: 150px;
+    }
+
+    table {
+        margin-bottom: 100px;
+    }
+
+    th, td {
+        padding: 10px 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    #navegacao {
+        padding: 10px;
+    }
+
+    li a {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    input {
+        height: 40px;
+    }
+
+    button {
+        width: 120px;
+        height: 40px;
+    }
+
+    table {
+        margin-bottom: 50px;
+    }
+}
 
 
 
